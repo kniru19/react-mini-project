@@ -17,7 +17,7 @@ function Slider () {
                   <div className="detail-box">
                     <div>
                       <h1>
-                        Welcome To <br />
+                        Welcome Too <br />
                         <span>
                           Content Writing Services
                         </span>
