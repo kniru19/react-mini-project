@@ -1,0 +1,21 @@
+.about_section .img-box img {
+    width: 100%;
+  }
+  
+  .about_section .detail-box a {
+    display: inline-block;
+    padding: 8px 35px;
+    background-color: #e93f1a;
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+  
+  .about_section .detail-box a:hover {
+    background-color: transparent;
+    border-color: #e93f1a;
+    color: #e93f1a;
+  }
