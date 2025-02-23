@@ -6,6 +6,7 @@ import Service from './components/service'
 import Quote from './components/quote'
 import Contact from './components/contact'
 import Client from './components/client'
+import Info from './components/info'
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Quote />
        <Contact />
        <Client />
+       <Info />
                
 
 
