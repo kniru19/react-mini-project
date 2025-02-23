@@ -1,4 +1,6 @@
 import React from 'react'
+import '../css/client.css'
+import img from '../assets/images/client.jpg'
 
 function Client() {
   return (
@@ -22,7 +24,7 @@ function Client() {
               <div className="client_container">
                 <div className="client-id">
                   <div className="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src={img} alt="" />
                   </div>
                   <div className="client_name">
                     <div>
@@ -52,7 +54,7 @@ function Client() {
               <div className="client_container">
                 <div className="client-id">
                   <div className="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src={img} alt="" />
                   </div>
                   <div className="client_name">
                     <div>
@@ -82,7 +84,7 @@ function Client() {
               <div className="client_container">
                 <div className="client-id">
                   <div className="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src={img} alt="" />
                   </div>
                   <div className="client_name">
                     <div>
