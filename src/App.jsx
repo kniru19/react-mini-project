@@ -23,21 +23,11 @@ function App() {
         <AboutSec />
         <Service />
         <Quote />
-       <Contact />
-       <Client />
-<<<<<<< HEAD
+        <Contact />
+        <Client />
         <Info />
-        <Footer />        
-=======
-       <Info />
-               
->>>>>>> 79b2496d84e1a0938d3aec6ffe699f33cee25af6
-
-
+        <Footer />
       </div>
-    
-      
-
     </>
   )
 }
