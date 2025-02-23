@@ -4,6 +4,7 @@ import Slider from './components/slider'
 import AboutSec from './components/aboutsec'
 import Service from './components/service'
 import Quote from './components/quote'
+import Contact from './components/contact'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -19,6 +20,7 @@ function App() {
         <AboutSec />
         <Service />
         <Quote />
+        <Contact/>
        
       </div>
     
