@@ -6,7 +6,8 @@ import Service from './components/service'
 import Quote from './components/quote'
 import Contact from './components/contact'
 import Client from './components/client'
-
+import Info from './components/info'
+import Footer from './components/footer'
 
 
 
@@ -27,7 +28,8 @@ function App() {
         <Quote />
        <Contact />
        <Client />
-               
+        <Info />
+        <Footer />        
 
 
       </div>
