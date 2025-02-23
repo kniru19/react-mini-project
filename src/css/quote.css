@@ -1,0 +1,28 @@
+.quote_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .quote_section .box .btn-box a {
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #e93f1a;
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+  
+  .quote_section .box .btn-box a:hover {
+    background-color: transparent;
+    border-color: #e93f1a;
+    color: #e93f1a;
+  }
