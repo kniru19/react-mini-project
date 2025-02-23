@@ -7,14 +7,7 @@ import Quote from './components/quote'
 import Contact from './components/contact'
 import Client from './components/client'
 import Info from './components/info'
-<<<<<<< HEAD
 import Footer from './components/footer'
-=======
-
->>>>>>> 79b2496d84e1a0938d3aec6ffe699f33cee25af6
-
-
-
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
