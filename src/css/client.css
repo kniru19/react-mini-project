@@ -1,0 +1,96 @@
+.client_section {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .client_section .img-box {
+    min-width: 175px;
+    max-width: 175px;
+  }
+  
+  .client_section .img-box img {
+    width: 100%;
+  }
+  
+  .client_section .client_container {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .client_section .client-id {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .client_section .client_name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: right;
+    padding-left: 20px;
+  }
+  
+  .client_section .client_name h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  .client_section .client_name p {
+    color: #e93f1a;
+  }
+  
+  .client_section .client_detail {
+    padding: 25px 45px;
+    background-color: #e93f1a;
+  }
+  
+  .client_section .client_text p,
+  .client_section .client_text blockquote {
+    margin: 0;
+    position: relative;
+    color: #fff;
+  }
+  
+  .client_section .client_text blockquote::before,
+  .client_section .client_text blockquote::after {
+    position: absolute;
+    font-family: "FontAwesome";
+    font-size: 20px;
+  }
+  
+  .client_section .client_text blockquote::before {
+    content: "\f10d";
+    top: -6px;
+    left: -30px;
+  }
+  
+  .client_section .client_text blockquote::after {
+    content: "\f10e";
+    bottom: -10px;
+    right: 5px;
+  }
+  
+  .client_section .carousel-indicators {
+    bottom: -75px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .client_section .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    -webkit-box-sizing: unset;
+            box-sizing: unset;
+    background-color: #e93f1a;
+    opacity: 1;
+    border-radius: 100%;
+  }
+  
+  .client_section .carousel-indicators li.active {
+    background-color: #000;
+  }
+  
